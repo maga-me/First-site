@@ -57,7 +57,7 @@ ul {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background: dodgerblue;
+    background: #111;
 }
 
 .txt {
