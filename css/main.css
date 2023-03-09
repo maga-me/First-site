@@ -25,13 +25,14 @@ ul {
     padding: 0 12px;
 }
 
+/* header start */
+
 .header__nav {
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
     align-items: center;
-    gap: 20px
-    ;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
@@ -68,3 +69,5 @@ ul {
     color: #fff;
     text-transform: uppercase;
 }
+
+/* header start */
