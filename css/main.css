@@ -7,6 +7,11 @@
 
 a {
     text-decoration: none;
+    color: #000;
+}
+
+a:active {
+    color: #000;
 }
 
 ul {
@@ -25,11 +30,13 @@ ul {
     justify-content: space-between;
     padding: 20px 0;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .header__list {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .header__logo {
@@ -39,4 +46,18 @@ ul {
 .header__link {
     font-size: 28px;
     text-transform: capitalize;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.txt {
+    width: 100%;
+    flex-grow: 1;
+    font-size: 60px;
+    display: grid;
+    place-items: center;
 }
